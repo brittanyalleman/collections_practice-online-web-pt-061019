@@ -16,7 +16,7 @@ def swap_elements(array)
   array
 end
 
-def reverse_array(array) 
+def reverse_array(array)
    array.reverse
 end
 
@@ -24,3 +24,6 @@ def kesha_maker(array)
    array.each { |element| element[2] = "$"}
 
 end
+
+def find_a(array)
+  array.find_all {|element| starts with "a"}
