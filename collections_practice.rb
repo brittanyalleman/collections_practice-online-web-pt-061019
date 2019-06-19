@@ -27,3 +27,4 @@ end
 
 def find_a(array)
   array.find_all {|element| starts with "a"}
+end
