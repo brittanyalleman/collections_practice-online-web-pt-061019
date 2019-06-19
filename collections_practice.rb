@@ -36,6 +36,7 @@ end
 def add_s(array)
   array.each_with_index do |word, index|
     if  i = 1 skip
-    else >> |word("s")|
+    else 
+    word <<"s"
   end
 end
